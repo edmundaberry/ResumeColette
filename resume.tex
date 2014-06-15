@@ -1,0 +1,28 @@
+\documentclass[10pt,letterpaper,sans]{moderncv}
+\moderncvstyle{banking} 
+\moderncvcolor{black}    
+\usepackage[utf8]{inputenc}  
+\usepackage[scale=0.75]{geometry}
+
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+
+% font size for name and title
+\renewcommand*{\namefont}{\huge\bfseries\upshape}
+\renewcommand*{\titlefont}{\huge\mdseries\upshape}
+
+\name{Colette M.}{Borden Berry}
+\title{Résumé}
+\email{coletteborden@gmail.com}
+\phone[mobile]{+41 78 688 8329}
+\address{rue Henri Fr\'{e}d\'{e}ric Amiel 2}{CH Geneva 1203}{Switzerland}
+
+\def\Plus{\texttt{+}}
+
+\begin{document}
+\makecvtitle
+
+\input{tex/tex_files/experience.tex}
+\input{tex/tex_files/education.tex}
+\input{tex/tex_files/technical_skills.tex}
+
+\end{document}
